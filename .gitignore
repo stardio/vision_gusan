@@ -1,0 +1,23 @@
+# Runtime log folders
+NG_Log/
+Inspection_Log/
+Log/
+
+# Runtime log/data files
+inspect_log.csv
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated/captured images (keep master images)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+!master.png
+!master_e.png
+!master_err.png
